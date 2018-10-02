@@ -1,4 +1,4 @@
-<html>
+	<html>
 	<head>
 		<script>
 			function myFunction() {
@@ -8,7 +8,7 @@
 					document.getElementById("my-demo").innerHTML = this.responseText;
 					}
 				};
-				xhttp.open("GET", "YOUR-API-GATEWAY-LINK-HERE", true);
+				xhttp.open("GET", "https://k9vpr711e2.execute-api.eu-central-1.amazonaws.com/prod/", true);
 				xhttp.send();
 
 			}
@@ -21,7 +21,7 @@
 		<br>
 		<br>
 		<br>
-		<h1>Hello <span id="my-demo">Cloud Gurus!</span></h1>
+		<h1>Hello <span id="my-demo">CloudGurus</span></h1>
 		<button onclick="myFunction()">Click me</button>
 		<br>
 		<img src="https://s3.amazonaws.com/acloudguru-opsworkslab-donotdelete/ACG_Austin.JPG">
